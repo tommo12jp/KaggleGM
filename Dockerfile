@@ -13,5 +13,5 @@ RUN pip3 install matplotlib
 RUN pip3 install sklearn
 RUN pip3 install seaborn
 RUN pip3 install argparse
-RUN sudo apt-get install git
-RUN sudo apt install git-lfs
+RUN pip3 install xgboost
+RUN apt-get install -y git 
